@@ -1,0 +1,25 @@
+@startuml ./developer_usecase.png
+left to right direction
+
+
+
+rectangle 开发者平台{
+
+(登录，注销)
+(查询APP登录列表)
+(修改APP基础信息)
+(删除APP)
+(查看APP信息)
+(APP上架)
+(APP下架)
+}
+开发者--> (登录，注销):《use》
+开发者--> (查询APP登录列表):《use》
+开发者--> (修改APP基础信息):《use》
+开发者--> (删除APP):《use》
+开发者--> (查看APP信息):《use》
+开发者--> (APP上架):《use》
+开发者--> (APP下架):《use》
+
+
+@enduml

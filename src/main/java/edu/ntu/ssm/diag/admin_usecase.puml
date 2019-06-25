@@ -1,0 +1,12 @@
+@startuml  ./admin_usecase.png
+    left to right direction
+    rectangle 后台管理系统{
+        (登录，注销)
+        (查询待审核APP列表)
+        (APP审核)
+    }
+    超级管理员-->(登录，注销):《use》
+    超级管理员-->(查询待审核APP列表):《use》
+    超级管理员-->(APP审核):《use》
+
+@enduml
